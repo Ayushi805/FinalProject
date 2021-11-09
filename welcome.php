@@ -68,11 +68,12 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
           <a class="nav-link" href="login.php">Login</a>
         </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="menu.php">Menu</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact</a>
+        </li>
+        
 
 
       </ul>

@@ -47,7 +47,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-custom">
-        <a class="navbar-brand" href="#"><b>Project</b></a>
+        <a class="navbar-brand" href="#"><b>PROJECT</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,12 +56,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                 <li class="nav-item active">
                     <a class="nav-link" href="upload.php">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.php">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php">Login</a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="menu.php">Menu</a>
                 </li>
